@@ -1,0 +1,358 @@
+body{
+    background-color: #000000;
+    padding: 0%;
+    margin: 0%;
+}
+
+ /* ____________________________________NAVBAR____________________________________________________ */
+.navbar{
+    display: flex;
+    gap: 900px;
+    margin-top: 10px;
+}
+#icon{
+    color: #BA0021;
+    font-size: 25px;
+    padding-left: 170px;
+}
+.services{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f4f5f0;
+}
+
+
+ /* ----------------------Section-1---------------------------------------------------------- */
+
+ .section-1{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    height: 555px;
+ }
+ .brand-img{
+    padding-left: 200px;
+ }
+ .introduction{
+    margin-top: 80px;
+    width: 400px;
+    margin-left: 70px;
+ }
+ #hello{
+    color: #BA0021;
+    font-family: 'Lato', sans-serif;
+ }
+ #intro{
+  margin-top: -10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+ }
+ #discription{
+  margin-top: -20px;
+    color: #ece7c5;
+    font-size: 13px;
+    font-family: 'Figtree', sans-serif;
+ }#button{
+    background-color: #BA0021;
+    border: none;
+    height: 30px;
+    width: 100px;
+    font-size: x-small;
+    color: white;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+ }
+ #button:hover{
+  background-color: #990000;
+  /* font-size: 20px; */
+}
+
+  /* section-2 */
+
+  .section-2{
+    padding-top: 0%;
+  }
+  .blank{
+    background-color: #202020;
+    z-index: -1;
+    height: 600px;
+    width: 50%;
+    position: relative;
+    bottom: -20px;
+  }
+  .experince{
+    position: relative;
+    top: 400px;
+    left: 250px;
+    text-align: center;
+    width: 200px;
+    height: 160px;
+    display: flex;
+  }
+  #one{
+    color: #BA0021;
+    font-size: 70px;
+  }
+  #two{
+    margin-top: 40px;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 40px;
+    
+  }
+  .basic{
+    display: flex;
+    width: 70%;
+    position: absolute;
+    top: 720px;
+    left: 370px;
+    gap: 20px;
+  }
+  .basic-part{
+    background-color: #131313;
+    height: 250px;
+    width: 250px;
+    text-align:left;
+    padding-left: 30px;
+    padding-top: 30px;
+    transition-duration: 1s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .basic-part:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+ 
+    -webkit-transform-origin: 0px 0px;
+    -moz-transform-origin: 0px 0px;
+    -ms-transform-origin: 0px 0px;
+    -o-transform-origin: 0px 0px;
+    transform-origin: 0px 0px;
+  }
+  .basic-icon{
+    font-size: 40px;
+    color: #BA0021;
+  }
+  .basic-icon-two{
+    color: #fff;
+    font-size: 40px;
+  }
+  #basic-center{
+    background-color: #BA0021;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+
+  .achivements{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    top: 1000px;
+    left: 670px;
+  }
+
+  .achivements-part{
+    background-color: #131313;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-duration: 1s;
+  }
+.achivements-part:hover{
+  transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+ 
+    -webkit-transform-origin: 0px 0px;
+    -moz-transform-origin: 0px 0px;
+    -ms-transform-origin: 0px 0px;
+    -o-transform-origin: 0px 0px;
+    transform-origin: 0px 0px;
+}
+
+  /* -----------------------------------Section 3---------------------------------- */
+
+  .secondry-head{
+    display: flex;
+    gap: 500px;
+    width: 70%;
+    padding-left: 200px;
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  .secondry-head-1{
+    width: 450px;
+  }
+  #Featured-Projects{
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+  }
+  #Featured-Projects-dis{
+    color: #ece7c5;
+  }
+  #view{
+    background-color: #BA0021;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 7px;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    /* transition-duration: 1s; */
+  }
+  #view:hover{
+    background-color: #990000;
+    /* font-size: 20px; */
+  }
+  .posture-1{
+    display: flex;
+    gap: 100px;
+    padding-left: 250px;
+    margin-top: 30px;
+  }
+  #postureOne{
+    height: 250px;
+    background-color: #1d1817;
+    transition-duration: 2s;
+  }
+  #postureOne:hover{
+    height: 300px;
+    width: auto;
+  }
+  #postureTwo{
+    height: 250px;
+    transition-duration: 2s;
+  }
+  #postureTwo:hover{
+    height: 300px;
+    width: auto;
+  }
+  .posture-2{
+    display: flex;
+    gap: 100px;
+    padding-left: 250px;
+    padding-top: 50px;
+  }
+  #postureThree{
+    height: 250px;
+    transition-duration: 2s;
+  }
+  #postureThree:hover{
+    height: 300px;
+    width: auto;
+  }
+  #postureFour{
+    height: 250px;
+    transition-duration: 2s;
+  }
+  #postureFour:hover{
+    height: 300px;
+    width: auto;
+  }
+  .quck{
+    color: #fff;
+    margin-top: -1px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+  }
+  .back{
+    color: #BA0021;
+    margin-top: -20px;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  .background{
+    position: absolute;
+    z-index: -1;
+    background-color: #202020;
+    height: 300px;
+    width: 100%;
+    top: 1900px;
+  }
+
+  /* -------------------contact------------------ */
+
+  .contact-section{
+    display: flex;
+    background-color: #090909;
+    width: 63.5%;
+    height: 180px;
+    margin-left: 250px;
+    margin-top: 50px;
+    gap: 300px;
+  }
+
+.contact-section-text{
+  width: 450px;
+  padding-left: 70px;
+}
+#contact-section-head{
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#contact-section-dis{
+  font-size: 15px;
+  color: #ece7c5;
+  margin-top: -17px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#contact-section-button{
+  background-color: #BA0021;
+  border: none;
+  height: 30px;
+  width: 90px;
+  margin-top: 70px;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#contact-section-button{
+  background-color: #990000;
+}
+/* ----------------------------------path------------------ */
+
+.path{
+  margin-top: 40px;
+  text-align: center;
+}
+.path-ref{
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+footer{
+  background-color: #202020;
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+  margin-top: 40px;
+}
+#icon2{
+  color: #BA0021;
+  font-size: 30px;
+  padding-top: 10px;
+}
+.footer-brand{
+  padding: 20px;
+}
